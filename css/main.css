@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e5ff8f;
+  background: #7ae8ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2447,4 +2447,20 @@ ul.breadcrumb li + li:last-child {
 }
 .links-of-blogroll-item {
   padding: 0;
+}
+body {
+  background: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.header-inner {
+  opacity: 0.85;
+}
+.sidebar {
+  opacity: 0.85;
+}
+.footer {
+  color: #fff;
 }
